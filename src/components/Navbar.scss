@@ -1,0 +1,46 @@
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    width: 100%;
+    background-color: #ddd;
+
+    .logoContainer{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        cursor: pointer;
+        padding-left: 10px;
+
+        span{
+            font-size: 30px;
+            font-weight: bold;
+            font-family: "Kaushan Script", cursive;
+            color: orangered;
+        }
+    }
+
+    .inputContainer{
+        display: flex;
+        align-items: center;
+        border: 1px solid whitesmoke;
+        border-radius: 5px;
+
+        input{
+            border: none;
+            background-color: transparent;
+            color: white;
+            width: 200px;
+            padding: 10px;
+            &::placeholder {
+                color: #555;
+             }
+        }
+    }
+
+    .cartContainer{
+        cursor: pointer;
+        padding-right: 20px;
+    }
+}

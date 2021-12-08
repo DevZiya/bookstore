@@ -1,0 +1,36 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  width: 100%;
+  background-color: #ddd; }
+  .nav .logoContainer {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    padding-left: 10px; }
+    .nav .logoContainer span {
+      font-size: 30px;
+      font-weight: bold;
+      font-family: "Kaushan Script", cursive;
+      color: orangered; }
+  .nav .inputContainer {
+    display: flex;
+    align-items: center;
+    border: 1px solid whitesmoke;
+    border-radius: 5px; }
+    .nav .inputContainer input {
+      border: none;
+      background-color: transparent;
+      color: white;
+      width: 200px;
+      padding: 10px; }
+      .nav .inputContainer input::placeholder {
+        color: #555; }
+  .nav .cartContainer {
+    cursor: pointer;
+    padding-right: 20px; }
+
+/*# sourceMappingURL=Navbar.css.map */
